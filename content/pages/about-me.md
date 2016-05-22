@@ -1,4 +1,4 @@
-Title: about me
+Title: About Me
 
 I am a post-doctoral researcher at University College London. My research
 involves applying statistical methods to complex functional imaging, eye

@@ -10,8 +10,12 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'http://jooh.github.io'
+SITEURL = 'http://www.johancarlin.com'
 RELATIVE_URLS = False
+
+STATIC_PATHS = ['extra/CNAME','extra/favicon.ico','images']
+EXTRA_PATH_METADATA = {'extra/CNAME' : {'path': 'CNAME'},
+                       'extra/favicon.ico' : {'path': 'favicon.ico'}}
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
@@ -19,6 +23,6 @@ CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 DELETE_OUTPUT_DIRECTORY = False
 
 # Following items are often useful when publishing
-
-DISQUS_SITENAME = "johancarlin"
-#GOOGLE_ANALYTICS = ""
+DISQUS_SITENAME = 'johancarlin'
+GOOGLE_ANALYTICS = 'UA-33066815-1'
+TWITTER_USERNAME = 'johancarlin'

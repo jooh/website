@@ -1,3 +1,7 @@
 [submodule "output"]
 	path = output
 	url = git@github.com:jooh/jooh.github.io
+    ignore = all
+[submodule "plugins/ipynb"]
+	path = plugins/ipynb
+	url = git://github.com/danielfrg/pelican-ipynb.git
